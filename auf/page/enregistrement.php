@@ -23,50 +23,46 @@
 
             <div class="container">
                 
-            <form action="./auf/index.php" method="POST">
+            <form action="enregistrementabonne.php" method="POST">
                     
                         
                             <div class="row col-12 d-flex justify-content-center  " >
                                  
                                 <div class="form-group col-6">
-                                <input type="text" class="form-control" placeholder="nom" aria-label="Username" aria-describedby="addon-wrapping">
+                                
+                                
+                                <input type="text" class="form-control" name="nom"  placeholder ="nom" aria-label="Username" aria-describedby="addon-wrapping">
+
                                  
-
-                                
-                            
-                                <input type="text" class="form-control mt-2" placeholder="prenom" aria-label="Username" aria-describedby="addon-wrapping">
+                                 <input type="text" class="form-control mt-2" name="prenom" placeholder="prenom" aria-label="Username" aria-describedby="addon-wrapping">
+                                  
+ 
                                  
+                                 
+                                 <input type="date" class="form-control mt-2" name="date_de_naissance"  aria-label="Username" aria-describedby="addon-wrapping">
+                                 
+ 
+                                 
+                             
+                                 <input type="date" class="form-control mt-2"  name="date_de_debut_d_abonnement" aria-label="Username" aria-describedby="addon-wrapping">
+                                 
+ 
+                                 
+                                 
+                                 <input type="text" class="form-control mt-2"  name="numero_de_telephone" placeholder="numero de telephone" aria-label="Username" aria-describedby="addon-wrapping">
+                                 
+ 
+                                 <input type="email" class="form-control mt-2"  name="email" placeholder="email" aria-label="Username" aria-describedby="addon-wrapping"> 
+                                 
+                                 <input type="submit" class="btn text-light text-center" name="validerabonne" value="Valider" ></input>
+                              </div>
 
-                                
-                                
-                                <input type="text" class="form-control mt-2" placeholder="date de naissance" aria-label="Username" aria-describedby="addon-wrapping">
-                                
-
-                                
-                            
-                                <input type="text" class="form-control mt-2" placeholder="debut d'abonnement" aria-label="Username" aria-describedby="addon-wrapping">
-                                
-
-                                
-                                
-                                <input type="text" class="form-control mt-2" placeholder="numero de telephone" aria-label="Username" aria-describedby="addon-wrapping">
-                                
-
-                                
-                                
-                                <input type="text" class="form-control mt-2" placeholder="email" aria-label="Username" aria-describedby="addon-wrapping">
-                                </div>
                             </div>
                         
-                    
-                    
-               
-                <div >
-    
-                   <a href="/auf/index.php" class="btn text-light text-center">Enregistrement</a>
-              </div>
                 
-                    
+                      <div >
+        
+                    </div>
                     
             </form>
 

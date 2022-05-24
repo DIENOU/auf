@@ -26,9 +26,9 @@
      
       <th scope="col">nom</th>
       <th scope="col">prenom</th>
-      <th scope="col">date de naissance</th>
-      <th scope="col">date de debut d'abonnement</th>
-      <th scope="col">numero de telephonne</th>
+      <th scope="col">date_de_naissance</th>
+      <th scope="col">date_de_debut_dabonnement</th>
+      <th scope="col">numero_de_telephonne</th>
       <th scope="col">email</th>
 
     </tr>
