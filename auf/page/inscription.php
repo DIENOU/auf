@@ -23,7 +23,7 @@
 
             <div class="container">
                 
-            <form action="./auf/index.php" method="POST">
+            <form action="adminebdd.php" method="POST">
                     
                         
                             <div class="row col-12 d-flex justify-content-center  " >
@@ -38,7 +38,7 @@
                                 
 
                                          <input type="text" class="form-control mt-2"  name="tel" placeholder="tel" aria-label="Username" aria-describedby="addon-wrapping"> 
-                                
+                                <input type="submit" value="Inscrption" name="valideradmine">
                                
                                     </div>
                             </div>
@@ -48,7 +48,7 @@
                
                 <div >
     
-                   <a href="/auf/index.php" class="btn text-light text-center">Enregistrement</a>
+                   <!-- <a href="/auf/index.php" class="btn text-light text-center">Inscrption</a> -->
               </div>
                 
                     
